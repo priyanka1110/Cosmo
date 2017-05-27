@@ -1,0 +1,63 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+*,
+html {
+	margin:0;
+	padding:0;
+}
+::selection {background:#f00;color:#fff;}
+::moz-selection {background:#f00;color:#fff;}
+::webkit-selection {background:#f00;color:#fff;}
+
+/*h1,h2,h3,h4,h5,h6,input,select,table,p,small {
+	font-family:'interstate_light',sans-serif;
+	font-weight:normal;
+	color:;
+}*/
+
+h1,h2,h3,h4,h5,h6,input,select,table,p,small,ul,li,span {
+	margin: 0;
+	padding: 0;
+}
+a, a:focus,a:active,a img,a img:hover,a img:focus,button:focus,button.btn:focus, span:focus {
+	outline:none;
+	cursor:pointer;
+}
+
+ul,li {
+	list-style:none;
+	cursor:pointer;
+}
+
+hr {
+	margin:0;
+}
+
+.brand-section {
+	background-color: #2196f3;
+	padding: 20px;
+	color: #fff;
+}
+
+.brand-section img {
+	width: 20%;
+}
+
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 85% !important;
+	}
+}
