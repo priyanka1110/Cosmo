@@ -1,26 +1,11 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-
 *,
 html {
 	margin:0;
 	padding:0;
 }
-::selection {background:#f00;color:#fff;}
-::moz-selection {background:#f00;color:#fff;}
-::webkit-selection {background:#f00;color:#fff;}
+::selection {background:#ffab40 ;color:#fff;}
+::moz-selection {background:#ffab40 ;color:#fff;}
+::webkit-selection {background:#ffab40 ;color:#fff;}
 
 /*h1,h2,h3,h4,h5,h6,input,select,table,p,small {
 	font-family:'interstate_light',sans-serif;
@@ -61,3 +46,48 @@ hr {
 		width: 85% !important;
 	}
 }
+
+.page-footer {
+	padding-top: 0 !important;
+	position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icon {
+	font-size: 20px;
+	padding: 3px;
+}
+
+nav ul a.active {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.coming-soon h2{
+	height: 300px;
+	line-height: 300px;
+}
+
+nav {
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.12) !important;
+	-moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.12) !important;
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.12) !important;
+}
+
+nav {
+        text-align: center;
+        /*border:1px solid red;*/
+    }
+    nav ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    }
+    nav li {
+        float: left;
+        padding: 2px 5px;
+        /*border: 1px solid black;*/
+    }
